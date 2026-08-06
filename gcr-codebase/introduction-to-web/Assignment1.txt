@@ -1,0 +1,107 @@
+Assignment 1 - Web Development Basics
+
+Name: Vikash Singh
+Course: B.Tech CSE
+
+---
+
+1. Difference between Frontend, Backend and Full-Stack Development
+
+Frontend is the part of website we see and interact with, like buttons, images, colors, layout. Made using HTML, CSS, JavaScript. Example - the homepage design of Amazon, search bar, product images.
+
+Backend is the part that runs on server, handles logic and database. User can't see it. Made using Node.js, Python, Java etc. Example - when we click Add to Cart, backend checks stock and updates cart in database.
+
+Full-stack means a developer works on both frontend and backend together. Example - in a small startup one person builds the whole website, login page and also the server + database.
+
+---
+
+2. Client-Server Model
+
+In this model there are two sides - client and server.
+Client is the browser which sends a request (like opening a website).
+Server receives that request, processes it and sends back a response (webpage/data).
+This request-response cycle keeps happening whenever we browse a website.
+
+---
+
+3. How Browser Requests and Displays a Web Page
+
+1. We type a URL in browser.
+2. Browser finds the IP address of that website using DNS.
+3. Browser sends request to server.
+4. Server processes it, may check database if needed.
+5. Server sends back HTML, CSS, JS files.
+6. Browser reads these files and shows the page on screen.
+
+---
+
+4. Tools Required for Web Development Environment
+
+- Code Editor (VS Code) - for writing code
+- Web Browser (Chrome/Firefox) - for testing website, also has dev tools for debugging
+- Git - for version control, tracking changes in code
+- GitHub - for hosting code online, collaborating with others
+- Node.js - to run JavaScript outside browser and install packages via npm
+- Terminal - for running commands, installing packages
+- Live Server extension - auto refreshes browser when code changes
+
+---
+
+5. What is a Web Server
+
+A web server is a program/machine that stores website files and sends them to browser when requested. It listens for requests and gives response back.
+
+Examples: Apache, Nginx, Microsoft IIS, Node.js (Express), LiteSpeed
+
+---
+
+6. Roles in a Project
+
+Frontend Developer - builds the UI part of website, layout, styling, makes sure it works well on all screen sizes.
+
+Backend Developer - builds server side logic, APIs, connects app to database, handles authentication.
+
+Database Administrator - manages database, creates tables, takes backups, keeps data secure and makes queries run fast.
+
+---
+
+7. VS Code Setup for HTML, CSS, JavaScript
+
+Downloaded VS Code from official website and installed it. Installed these extensions:
+- Live Server
+- Prettier
+- HTML CSS Support
+
+Created a test folder with index.html, style.css, script.js and ran it using Live Server to check everything works fine.
+
+(Screenshot attached: vscode-setup.png)
+
+---
+
+8. Static vs Dynamic Websites
+
+Static website - content is fixed, same for every user, doesn't change unless developer edits code manually. Made with just HTML/CSS. Example - a simple portfolio site.
+
+Dynamic website - content changes based on user or data from database. Uses backend + database along with frontend. Example - Instagram, every user sees different feed.
+
+---
+
+9. Five Web Browsers and Rendering Engines
+
+- Chrome - Blink
+- Firefox - Gecko
+- Safari - WebKit
+- Edge - Blink (Chromium based)
+- Opera - Blink
+
+Rendering engine converts HTML/CSS code into the visual page we see. Different engines can show same code a bit differently, some CSS features may not work exactly same in all browsers. That's why developers test site on multiple browsers before launch.
+
+---
+
+10. Basic Web Architecture Flow
+
+Client (browser) sends request to server.
+Server processes it, if data is needed it queries the database.
+Database sends the data back to server.
+Server may also call external APIs (like payment gateway or weather API) for extra data.
+Server combines everything and sends final response back to client, which browser then displays.
