@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Registration</title>
+</head>
+<body>
+
+    <h1>Course Registration Form</h1>
+
+    <!-- Fieldset groups the form fields together -->
+    <form>
+        <fieldset>
+            <legend>Student Information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <br><br>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course">
+                <option value="dsa">Data Structures &amp; Algorithms</option>
+                <option value="fullstack">Full Stack Web Development</option>
+                <option value="cloud">Cloud Computing with AWS</option>
+                <option value="devops">DevOps Engineering</option>
+            </select>
+
+            <br><br>
+
+            <input type="submit" value="Register">
+        </fieldset>
+    </form>
+
+    <h2>Available Course Schedule</h2>
+
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Instructor</th>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>9:00 AM - 11:00 AM</td>
+            <td>Mr. Arjun Mehta</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>1:00 PM - 3:00 PM</td>
+            <td>Ms. Kavita Rao</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>10:00 AM - 12:00 PM</td>
+            <td>Mr. Sameer Joshi</td>
+        </tr>
+    </table>
+
+</body>
+</html>
